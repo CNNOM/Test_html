@@ -1,0 +1,45 @@
+/* body{
+  margin: 0;
+  padding: 0;
+
+}
+*{box-sizing: border-box;}
+
+.content{
+width:100%;
+height: 300px;
+background-color: blue;
+}
+.peple{
+  width: 500px;
+  height: 100px;
+  transition-duration: 2s;
+  transition-property: transform;
+  display: flex;
+  align-items: center;
+}
+
+.peple img{
+  height: 100px;
+  border-right: 1px solid red;
+}
+
+.content:hover .peple{
+  transform: translateX(500px);
+}
+.peple-1{
+  transition-timing-function: linear;
+}
+.peple-2{
+  transition-timing-function: linear;
+}
+ */
+
+.color{
+width:100%;
+height: 700px;
+background-color: blue;
+}
+.color:hover{
+  background-color: rgb(72, 255, 0)
+}
